@@ -93,7 +93,7 @@ A very special thanks to Tommaso for the constant support and encouragement. The
 
 ### Challenges Faced
 
-While most of the project aspects were straightforward, there were a couple of sections where I got (highly) confused about how to design and implement features - namely, the DHCP Unique Identifier and the Identity Association Identifier classes. Reaching out to the mentors on Zulip allowed me to discuss, understand and progress easily whenever I was stuck. At times, I sought their help to debug programs and locate issues, and this helped a great deal as well.
+There were definitely  times of doubt. When i felt like this bug will not go away, or there is something wrong with my design. For example: when i found the first few bugs in the implementation or when i was looking into the dynamic Polymorphic approach. Discussing with mentors and ns-3 devs helped a lot.  
 
 ### Suggestions for Future Contributors
 The community bonding period is important!
