@@ -1,0 +1,14 @@
+---
+---
+@import "{{ site.theme }}";
+
+// Change header background
+.page-header {
+  background-color: #004466;  /* Dark Blue */
+  color: white;
+}
+
+// Change link colors
+a {
+  color: #ff6600;  /* Orange links */
+}
