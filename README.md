@@ -10,12 +10,11 @@
 ## 📖 Project Overview
 
 The goal of this project was to extend ns-3’s native **GlobalRouting** protocol to support **IPv6** while minimizing code duplication from the existing IPv4 implementation. Global Routing is based on the quagga implementation of the OSPF Routing Protocol (RFC 2328) . The original Implementation was designed to work for IPv4
-For Phase 1: In order to make it work for Ipv6 , we Refactored the code for the API to a generic base. 
-For Phase 2: we Instantiated it for the two address types using Template MetaProgramming.
+
 Along the way we faced some obstacles:
 One of the main goals was to come up with a way to minimize code duplication.
 During the Project we Explored different programing alternatives to the problem, namely static polymorphism vs dynamic vs a hybrid approach. Each Design came with its own Pros and Cons . We felt that Template Meta-Programming offerred the best alternative. The tradeoff between dynamic and Static Polymorphism was runtime Performance vs Compile time Checks and complexity with the code base . We finally decided to go with the Static Route due to its various advantages. 
-We actually developed both versions halfway , to better understand each in GlobalRoutings Context. This way we could understand that Using Runtime Checks was not good enough for our use case.
+We actually developed both versions halfway , to better understand each in GlobalRoutings Context. This way we could understand that using Runtime Checks was not good enough for our use case.
 
 
 
@@ -50,7 +49,11 @@ Key objectives:
 
 ## Milestones
 
+For Phase 1: In order to make it work for Ipv6 , we Refactored the code for the API to a generic Templated base. Fixed Bugs  along the way, developed a Linux Like TraceRoute Functionality for GlobalRouting.
 
+For Phase 2: we Instantiated it for the two address types using Template MetaProgramming. Added Extensive Tests and Documentation.
+
+The following are the deliverables and the source code for each Milestone:
 
 ---
 
