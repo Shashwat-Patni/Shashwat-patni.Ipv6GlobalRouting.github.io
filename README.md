@@ -27,7 +27,7 @@ Key objectives:
 
 ---
 
-## Commit Summary
+## Merge Requests and Commits Summary
 
 ---
 
