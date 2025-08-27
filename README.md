@@ -1,4 +1,4 @@
-# IPv6 GlobalRouting Final Report
+# IPv6 GlobalRouting
 
 
 #### Student: [Shashwat Patni](https://gitlab.com/sHasHh)
