@@ -1,14 +1,38 @@
 ---
 ---
+
 @import "{{ site.theme }}";
 
-// Change header background
+// Header bar (make it ns-3 green)
 .page-header {
-  background-color: #004466;  /* Dark Blue */
+  background-color: #006400;  /* Dark Green */
+  color: white;
+  padding: 2rem 1rem;
+}
+
+// Buttons (e.g., "View on GitHub")
+.btn {
+  background-color: #228B22; /* Forest Green */
+  border: none;
   color: white;
 }
 
-// Change link colors
+.btn:hover {
+  background-color: #2E8B57; /* Sea Green */
+}
+
+// Body text
+body {
+  background-color: #ffffff;
+  color: #222;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+// Links
 a {
-  color: #ff6600;  /* Orange links */
+  color: #006400;
+}
+
+a:hover {
+  color: #2E8B57;
 }
