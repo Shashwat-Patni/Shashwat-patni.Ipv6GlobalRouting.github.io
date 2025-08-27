@@ -98,3 +98,7 @@ These challenges helped me learn, as well. For starters, the Bitter/sweet Truth 
 
 ### Suggestions for Future Contributors
 
+- GSoC is as fun as you make it. Do not treat it as work. See it as a learning oppurtunity at every curve
+- Do not be afraid to ask for help.
+- Be honest with your mentors. They are there to help You.
+
