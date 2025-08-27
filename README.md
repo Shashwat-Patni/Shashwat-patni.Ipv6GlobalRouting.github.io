@@ -33,20 +33,12 @@ Along the way we found and fixed some CRITICAL bugs lurking in the protocol .
 - Handle Non-onlink addresses by asserting when encountering them.
 - Handle the route Forwarding Differences between IPv4 and IPv6 for the network 3 Layer 
 
----
-
-
-
-- A Ipv6 Implementation of Global Routing
-
----
-
 ## Merge Requests and Commits Summary
 
 | No. | Name | Status | Commit |
 |-----|------|--------|--------|
-| [1] | internet: test: Add Tests for GlobalRouting     | Merged       |  [1](https://gitlab.com/nsnam/ns-3-dev/-/commit/d1134f2b43fe06e66cea4ef7b79e950024be6fdd?merge_request_iid=2471) [2](https://gitlab.com/nsnam/ns-3-dev/-/commit/91717fd8d107934d55a25d8cf6bca81cb1e21ee6?merge_request_iid=2471) |
-| [2] |      |        |        |
+| [1] | internet: test: Add Tests for GlobalRouting     | Merged       |  [[1]](https://gitlab.com/nsnam/ns-3-dev/-/commit/d1134f2b43fe06e66cea4ef7b79e950024be6fdd?merge_request_iid=2471) [[2]](https://gitlab.com/nsnam/ns-3-dev/-/commit/91717fd8d107934d55a25d8cf6bca81cb1e21ee6?merge_request_iid=2471) |
+| [2] | internet: (fixes #1243) GlobalRouting: Change NextHopCalculation from Network to Attached Router       | Merged        | [[1]](https://gitlab.com/nsnam/ns-3-dev/-/commit/ad089436accb2781da2c0b40690725adf1433106?merge_request_iid=2483) [[2]](https://gitlab.com/nsnam/ns-3-dev/-/commit/5cc5c00619774e4e3f2a7fd5ef135a86eddbf2bb?merge_request_iid=2483)        |
 | [3] |      |        |        |
 | [4] |      |        |        |
 
@@ -54,7 +46,7 @@ Along the way we found and fixed some CRITICAL bugs lurking in the protocol .
 
 ## Milestones
 
-For Phase 1: In order to make it work for Ipv6 , we Refactored the code for the API to a generic Templated base. Fixed Bugs  along the way, developed a Linux Like TraceRoute Functionality for GlobalRouting.
+For Phase 1: In order to make GlobalRouting work for Ipv6 , we Refactored the code for the API to a generic Templated base. Fixed Bugs  along the way, developed a Linux Like TraceRoute Functionality for GlobalRouting.
 
 For Phase 2: we Instantiated it for the two address types using Template MetaProgramming. Added Extensive Tests and Documentation.
 
