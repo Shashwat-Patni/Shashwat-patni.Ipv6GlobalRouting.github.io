@@ -1,6 +1,4 @@
-remote_theme: pages-themes/architect@v0.2.0
-plugins:
-  - jekyll-remote-theme
+theme: jekyll-theme-cayman-blog
 
 title: "GSoC 2025: IPv6 Support for GlobalRouting in ns-3"
 description: "Final Report for the GSoC 2025 project"
