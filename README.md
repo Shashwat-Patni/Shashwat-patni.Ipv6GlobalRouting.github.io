@@ -84,5 +84,24 @@ Phase 3:
 
 ## My Experience
 
+### Acknowledgements
 
+I would like to thank all my mentors and the ns-3 developers for providing guidance and advice throughout the project, and for the opportunity to contribute to ns-3 through GSoC '25.
+GSoC taught me alot. I went from being  clueless about opensource , to my very first commmit , to actually contributing in a meaninful way. Thank you to everyone from the community as well as from Google Summer of Code. 
+A very special thanks to Tommaso for the constant support and encouragement. The weekly meetings were as fun as they were a learning experience. Discussing bugs and Design choices with the seasoned Pros of ns-3 was a surreal and amazing learning experience.
+
+
+### Challenges Faced
+
+While most of the project aspects were straightforward, there were a couple of sections where I got (highly) confused about how to design and implement features - namely, the DHCP Unique Identifier and the Identity Association Identifier classes. Reaching out to the mentors on Zulip allowed me to discuss, understand and progress easily whenever I was stuck. At times, I sought their help to debug programs and locate issues, and this helped a great deal as well.
+
+### Suggestions for Future Contributors
+The community bonding period is important!
+Reach out to your mentors early, to discuss the timeline and any prior obligations during the coding period.
+Try to identify areas that require more attention than you would expect. Also read through the codebase, and familiarize yourself with the relevant sections that you would use regularly.
+
+Seek help at the right time.
+If you've put in a lot of effort but are still stuck on an issue, don't delay asking for help. There's a high chance someone else has encountered the same issue and can help you solve it.
+
+Enjoy! Your GSoC project will help you learn and have a fun experience with the organization. While tasks may seem daunting at first, you'll have great mentors to guide you. Make the most out of the opportunity!
 
