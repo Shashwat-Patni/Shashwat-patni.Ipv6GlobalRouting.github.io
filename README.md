@@ -87,7 +87,7 @@ Phase 3:
 ### Acknowledgements
 
 I would like to thank all my mentors and the ns-3 developers for providing guidance and advice throughout the project, and for the opportunity to contribute to ns-3 through GSoC '25.
-GSoC taught me alot. I went from being  clueless about opensource , to my very first commmit , to actually contributing in a meaninful way. Thank you to everyone from the community as well as from Google Summer of Code. 
+GSoC taught me alot. I went from being  clueless about open source , to my very first commit , to actually contributing in a meaningful way. Thank you to everyone from the community as well as from Google Summer of Code. 
 A very special thanks to Tommaso for the constant support and encouragement. The weekly meetings were as fun as they were a learning experience. Discussing bugs and Design choices with the seasoned Pros of ns-3 was a surreal and amazing learning experience.
 
 
