@@ -4,3 +4,6 @@ plugins:
 
 title: "GSoC 2025: IPv6 Support for GlobalRouting in ns-3"
 description: "Final Report for the GSoC 2025 project"
+
+github:
+  is_project_page: false
