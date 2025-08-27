@@ -93,15 +93,8 @@ A very special thanks to Tommaso for the constant support and encouragement. The
 
 ### Challenges Faced
 
-There were definitely  times of doubt. When i felt like this bug will not go away, or there is something wrong with my design. For example: when i found the first few bugs in the implementation or when i was looking into the dynamic Polymorphic approach. Discussing with mentors and ns-3 devs helped a lot.  
+There were definitely  times of doubt. When i felt like this bug will not go away, or there is something wrong with my design. For example: when i found the first few bugs in the implementation or when i was looking into the dynamic Polymorphic approach. Discussing with mentors and ns-3 devs helped a lot. 
+These challenges helped me learn, as well. For starters, the Bitter/sweet Truth about programming in general. There are no dead ends, there are always alternatives leading to similar answers. Do NOT be Afraid to ask for help . 
 
 ### Suggestions for Future Contributors
-The community bonding period is important!
-Reach out to your mentors early, to discuss the timeline and any prior obligations during the coding period.
-Try to identify areas that require more attention than you would expect. Also read through the codebase, and familiarize yourself with the relevant sections that you would use regularly.
-
-Seek help at the right time.
-If you've put in a lot of effort but are still stuck on an issue, don't delay asking for help. There's a high chance someone else has encountered the same issue and can help you solve it.
-
-Enjoy! Your GSoC project will help you learn and have a fun experience with the organization. While tasks may seem daunting at first, you'll have great mentors to guide you. Make the most out of the opportunity!
 
