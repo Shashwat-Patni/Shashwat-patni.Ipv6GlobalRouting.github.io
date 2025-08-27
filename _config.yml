@@ -1,3 +1,5 @@
 remote_theme: pages-themes/architect@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+title: GSoC 2025: Ipv6 Support for GlobalRouting in ns-3
+description: Final Report for the GSoC 2025 project
