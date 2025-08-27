@@ -53,9 +53,27 @@ Along the way I found and fixed some CRITICAL bugs lurking in the protocol and a
 
 ## Milestones
 
-For Phase 1: In order to make GlobalRouting work for Ipv6 , we Refactored the code for the API to a generic Templated base. Fixed Bugs  along the way, developed a Linux Like TraceRoute Functionality for GlobalRouting.
+The Project was divided into three Phases and two Milestones:
 
-For Phase 2: we Instantiated it for the two address types using Template MetaProgramming. Added Extensive Tests and Documentation.
+Phase 1:
+
+    Port existing Ipv4GlobalRouting to generic GlobalRouting
+    Generalize ipv4-global-routing-test-suite and global-route-manager-impl-test-suite
+    Create tests and verify GlobalRouting works for Ipv4 after templatization
+    Design Tests for Ipv6 Specific Properties for GlobalRouting
+    Introduce Type Aliases for IP classes
+
+Phase 2:
+
+    Extend GlobalRouting to IPv6
+    Handle the Implementation differences of IPv6
+
+Phase 3:
+
+    Work On suggested Changes
+    Add Documentation For IPv6 GlobalRouting
+    Prepare edge Testcases, Check for Bugs , fix any remaining issues
+    Discuss any new features to GlobalRouting
 
 ---
 
