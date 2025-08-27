@@ -45,7 +45,7 @@ Along the way we found and fixed some CRITICAL bugs lurking in the protocol .
 
 | No. | Name | Status | Commit |
 |-----|------|--------|--------|
-| [1] |      |        |        |
+| [1] | internet: test: Add Tests for GlobalRouting     | Merged       |  [1](https://gitlab.com/nsnam/ns-3-dev/-/commit/d1134f2b43fe06e66cea4ef7b79e950024be6fdd?merge_request_iid=2471) [2](https://gitlab.com/nsnam/ns-3-dev/-/commit/91717fd8d107934d55a25d8cf6bca81cb1e21ee6?merge_request_iid=2471) |
 | [2] |      |        |        |
 | [3] |      |        |        |
 | [4] |      |        |        |
