@@ -5,10 +5,11 @@
 
 // Header bar (make it ns-3 green)
 .page-header {
-  background-color: #006400;  /* Dark Green */
-  color: white;
-  padding: 2rem 1rem;
+  background-color: #1b3b1b; // dark green base
+  background-image: linear-gradient(120deg, #4caf50, #1b3b1b); // green gradient
+  color: #ffffff; // make heading readable
 }
+
 
 // Buttons (e.g., "View on GitHub")
 .btn {
