@@ -17,8 +17,10 @@ Along the way we faced some obstacles:
 
 One of the main goals was to come up with a way to minimize code duplication.
 During the Project we Explored different programing alternatives to the problem, namely static polymorphism vs dynamic vs a hybrid approach. Each Design came with its own Pros and Cons . We felt that Template Meta-Programming offerred the best alternative. The tradeoff between dynamic and Static Polymorphism was runtime Performance vs Compile time Checks and complexity with the code base . We finally decided to go with the Static Route due to its various advantages. 
-
 We actually developed both versions halfway , to better understand each in GlobalRoutings Context. This way we could understand that using Runtime Checks was not good enough for our use case.
+
+After discussing with Mentors it was decided to use the Static Polymorphism approach to Generalize IPv4GlobalRouting to the generic GlobalRouting using template Meta-Programming. Using Compile Time Checks , we instantiated Two versions of the template , one for each of the address class.
+
 
 Along the way I found and fixed some CRITICAL bugs lurking in the protocol and also added a few performance improvements.
 
