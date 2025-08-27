@@ -4,12 +4,13 @@
 #### Student: [Shashwat Patni](https://gitlab.com/sHasHh)
 #### Mentors: [Tommaso Pecorella](https://gitlab.com/tommypec), Manoj Kumar Rana
 #### Organisation: [ns-3 Network Simulator](https://www.nsnam.org/)
+#### Project Wiki: [link](https://www.nsnam.org/wiki/GSOC2025Ipv6GlobalRouting)
 
 ---
 
 ## 📖 Project Overview
 
-The goal of this project was to extend ns-3’s native **GlobalRouting** protocol to support **IPv6** while minimizing code duplication from the existing IPv4 implementation. Global Routing is based on the quagga implementation of the OSPF Routing Protocol (RFC 2328) . The original Implementation was designed to work for IPv4
+The goal of this project was to extend ns-3’s native **GlobalRouting** protocol to support **IPv6** while minimizing code duplication from the existing IPv4 implementation. Global Routing is based on the quagga implementation of the OSPF Routing Protocol (RFC 2328) and uses the Djikstra Shortest path algorithm to compute paths for a single area network configuration. The problem is that GlobalRouting doesn't work for IPv6, and that's a huge limitation. The goal of the project was to fix that limitation  . Over the summer , we extended and refactored the code , to make globalRouting Also Work for IPv6 , using the same fundamental Algorithm, and tweaks to handle IPv6 vs IPv4 Differences.
 
 
 Along the way we faced some obstacles:
