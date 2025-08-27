@@ -1,4 +1,4 @@
-# GSoC 2025 – IPv6 GlobalRouting Final Report
+# IPv6 GlobalRouting Final Report
 
 
 #### Student: [Shashwat Patni](https://gitlab.com/sHasHh)
