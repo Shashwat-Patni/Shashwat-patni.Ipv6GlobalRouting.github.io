@@ -24,17 +24,18 @@ We actually developed both versions halfway , to better understand each in Globa
 
 Along the way we found and fixed some CRITICAL bugs lurking in the protocol . 
 
-Key objectives:
-- Refactor Ipv4 Implementation of Global Routing To a generic Global Routing Implementation to allow for the further extention to IPv6
-- Handle **link-local addresses** alongside global unicast addresses.  
+## Features Implemented
+- Refactor Ipv4 Implementation of Global Routing To a generic API to allow for the further extention to IPv6
+- Handle **link-local addresses** alongside global unicast addresses. Link Local Addresses are not routed by definition but are used as Next Hop entries in the Forwarding Tables for IPv6.  
 - Ensure **minimal code duplication** by reusing existing IPv4 logic where possible.  
 - Provide **route visualization and printing** functionality.  
 - Add **unit tests** to validate correctness of IPv6 routes.
-- Explore Alternatives to refactoring and extending such protocols.  
+- Handle Non-onlink addresses by asserting when encountering them.
+- Handle the route Forwarding Differences between IPv4 and IPv6 for the network 3 Layer 
 
 ---
 
-## 🚀 Features Implemented
+
 
 - A Ipv6 Implementation of Global Routing
 
