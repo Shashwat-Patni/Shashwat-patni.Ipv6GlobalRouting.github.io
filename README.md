@@ -5,6 +5,7 @@
 #### Mentors: [Tommaso Pecorella](https://gitlab.com/tommypec), Manoj Kumar Rana
 #### Organisation: [ns-3 Network Simulator](https://www.nsnam.org/)
 #### Project Wiki: [link](https://www.nsnam.org/wiki/GSOC2025Ipv6GlobalRouting)
+#### Repository: [Repository](https://gitlab.com/ShashwatPatni/IPv6GlobalRouting/-/tree/GSoC25?ref_type=heads)
 
 ---
 
@@ -102,5 +103,5 @@ These challenges helped me learn, as well. For starters, the Bitter/sweet Truth 
 - Do not be afraid to ask for help.
 - Be honest with your mentors. They are there to help You.
 
-### Other Important Links\
+### Other Important Links
 - GSoC Project Page: [Link](https://summerofcode.withgoogle.com/programs/2025/projects/wdNG4pyV)
