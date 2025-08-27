@@ -9,7 +9,7 @@
 
 ## 📖 Project Overview
 
-The goal of this project was to extend ns-3’s native **GlobalRouting** protocol to support **IPv6** while minimizing code duplication from the existing IPv4 implementation. 
+The goal of this project was to extend ns-3’s native **GlobalRouting** protocol to support **IPv6** while minimizing code duplication from the existing IPv4 implementation. The main goal was to come up with a way to minimize code duplication. Explored different programing alternatives to the problem, namely static polymorphism vs dynamic vs a hybrid approach. We finally decided to go with the Static Route due to its various advantages. Along the way we fixed some CRITICAL bugs in the protocol lurking since quite some time.
 
 Key objectives:
 - Refactor Ipv4 Implementation of Global Routing To a generic Global Routing Implementation to allow for the further extention to IPv6
