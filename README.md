@@ -102,3 +102,5 @@ These challenges helped me learn, as well. For starters, the Bitter/sweet Truth 
 - Do not be afraid to ask for help.
 - Be honest with your mentors. They are there to help You.
 
+### Other Important Links\
+- GSoC Project Page: [Link](https://summerofcode.withgoogle.com/programs/2025/projects/wdNG4pyV)
