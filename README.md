@@ -35,9 +35,20 @@ Along the way I found and fixed some CRITICAL bugs lurking in the protocol and a
 | [2] | [internet: (fixes #1243) GlobalRouting: Change NextHopCalculation from Network to Attached Router](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/2483)       | Merged        | [[1]](https://gitlab.com/nsnam/ns-3-dev/-/commit/ad089436accb2781da2c0b40690725adf1433106?merge_request_iid=2483) [[2]](https://gitlab.com/nsnam/ns-3-dev/-/commit/5cc5c00619774e4e3f2a7fd5ef135a86eddbf2bb?merge_request_iid=2483)        |
 | [3] | [internet: Add Ptr member to SPFVertex to Improve Performance](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/2498)      | Merged       | [[1]](https://gitlab.com/nsnam/ns-3-dev/-/commit/fb3510cee2c3b302706639f4a98aa00fe7bce4e6?merge_request_iid=2498)       |
 | [4] | [internet: (fixes #1242) Remove Identical Route entries and document known limitations for GlobalRouting](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/2517)      | Merged       | [[1]](https://gitlab.com/nsnam/ns-3-dev/-/commit/3ff4a45e75aacf4f8e20f976d9b888df5d300600?merge_request_iid=2517) [[2]](https://gitlab.com/nsnam/ns-3-dev/-/commit/0984797a756f7a7158d383999f29e0091d1fe1cd?merge_request_iid=2517)      |
-| [5] | [internet: Add PrintRoute function For Global Routing](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/2434)                            | In Review         | [[1]](https://gitlab.com/nsnam/ns-3-dev/-/commit/7bf68fc46dbf6a59b258758d54824df9ca723e3e?merge_request_iid=2434) |
-| [6] | [internet: Generalize Ipv4GlobalRouting to Generic Global Routing Classes using Templates](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/2508) | In Review | - |
-| [7] | [internet: Add Ipv6 Support to Global Routing](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/2530) | In Review | - |
+| [5] | [internet: Add PrintRoute function For Global Routing](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/2434) | **Merged** | [[1]](https://gitlab.com/nsnam/ns-3-dev/-/commit/a46d730cb7889ccba4ac77615addfedca16bd848) |
+| [6] | [internet: Generalize Ipv4GlobalRouting to Generic Global Routing Classes using Templates](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/2508) | Closed &mdash; folded into [!2530](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/2530) and **merged** there | [[1]](https://gitlab.com/nsnam/ns-3-dev/-/commit/909ce126d66d473ef35b709ab881338d5c5535d8) |
+| [7] | [internet: Add Ipv6 Support to Global Routing](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/2530) | **Merged** | [[1]](https://gitlab.com/nsnam/ns-3-dev/-/commit/909ce126d66d473ef35b709ab881338d5c5535d8) |
+| [8] | internet: fix print routing table output format for GlobalRouting (post-merge follow-up) | **Merged** | [[1]](https://gitlab.com/nsnam/ns-3-dev/-/commit/21fd01fb256904f1b0cf33083b2436985487400a) |
+
+> **Note on [!2508](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/2508) / Milestone 1.** The templatization MR was closed in favour of a single combined MR: [!2530](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/2530) was built on top of the `Milestone_1_GSoC` branch, so the generic `GlobalRouting` classes and the IPv6 support landed together in commit [`909ce12`](https://gitlab.com/nsnam/ns-3-dev/-/commit/909ce126d66d473ef35b709ab881338d5c5535d8). That commit was merged to `ns-3-dev` master on **1 February 2026** by ns-3 maintainer **Tom Henderson**, which is why it appears under his account in the git history (author: Shashwat Patni, committer: Tom Henderson).
+
+### Where the work shipped
+
+All of the above is part of the **ns-3.47** release (February 2026). The ns-3.47 `CHANGES.md` lists under *New API*:
+
+- *(internet)* Added IPv6 support to Global Routing.
+- *(internet)* Added `PrintRoute` functionality to `GlobalRouting` similar to `TraceRoute`.
+
 
 ---
 
@@ -75,10 +86,10 @@ Phase 3:
 
 
   
-|---|Deliverables|---|
-|-----|------|--------|
-|Milestone 1| Generalize Ipv4GlobalRouting to Generic Global Routing Classes using Templates |[Source Code](https://gitlab.com/ShashwatPatni/IPv6GlobalRouting/-/tree/Milestone_1_GSoC)|
-|Milestone 2| Add Ipv6 Support to Global Routing |[Source Code](https://gitlab.com/ShashwatPatni/IPv6GlobalRouting/-/tree/Milestone_2_Ipv6)|
+| --- | Deliverables | Source | Status |
+|-----|------|--------|--------|
+| Milestone 1 | Generalize Ipv4GlobalRouting to Generic Global Routing Classes using Templates | [Source Code](https://gitlab.com/ShashwatPatni/IPv6GlobalRouting/-/tree/Milestone_1_GSoC) | **Merged** upstream as part of [!2530](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/2530) |
+| Milestone 2 | Add Ipv6 Support to Global Routing | [Source Code](https://gitlab.com/ShashwatPatni/IPv6GlobalRouting/-/tree/Milestone_2_Ipv6) | **Merged** via [!2530](https://gitlab.com/nsnam/ns-3-dev/-/merge_requests/2530), commit [`909ce12`](https://gitlab.com/nsnam/ns-3-dev/-/commit/909ce126d66d473ef35b709ab881338d5c5535d8) (merged by Tom Henderson, 1 Feb 2026) |
 
 
 ---
